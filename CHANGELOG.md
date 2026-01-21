@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/1D1S/1D1S-design-system/compare/v0.1.2...v0.1.3) (2026-01-21)
+
+
+### Bug Fixes
+
+* trigger release with OIDC fix ([17be631](https://github.com/1D1S/1D1S-design-system/commit/17be63141d7b3c1a8a9587823321e4716158a441))
+* use tokenless OIDC for npm publishing ([e76df5f](https://github.com/1D1S/1D1S-design-system/commit/e76df5fb46b05efe2f678cea9d0c8f5417b5288d))
+
 ### [0.1.2](https://github.com/1D1S/1D1S-design-system/compare/v0.1.1...v0.1.2) (2026-01-21)
 
 
