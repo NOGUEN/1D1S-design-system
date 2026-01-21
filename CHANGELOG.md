@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/1D1S/1D1S-design-system/compare/v0.1.3...v0.1.4) (2026-01-21)
+
+
+### Bug Fixes
+
+* force oidc by removing interfering .npmrc ([66f74e9](https://github.com/1D1S/1D1S-design-system/commit/66f74e9fc49b6ea2fd74264e5955005de06e342d))
+
 ### [0.1.3](https://github.com/1D1S/1D1S-design-system/compare/v0.1.2...v0.1.3) (2026-01-21)
 
 
