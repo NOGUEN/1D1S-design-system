@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/1D1S/1D1S-design-system/compare/v0.1.1...v0.1.2) (2026-01-21)
+
+
+### Bug Fixes
+
+* trigger production release to npmjs.com ([47bf21b](https://github.com/1D1S/1D1S-design-system/commit/47bf21b470a30db4b0252efdb405145d9345fb0c))
+
 ### 0.1.1 (2026-01-21)
 
 
