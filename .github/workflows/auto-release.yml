@@ -39,7 +39,6 @@ jobs:
     permissions:
       contents: write
       id-token: write
-      packages: write
 
     steps:
       - name: Checkout code
@@ -49,12 +48,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9.0.0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
+          cache: 'pnpm'
 
       - name: Configure Git
         run: |
@@ -68,7 +70,7 @@ jobs:
         run: pnpm build
 
       - name: Bump version and generate changelog
-        run: npm run release
+        run: pnpm release
 
       - name: Push changes
         run: |
@@ -78,11 +80,8 @@ jobs:
         id: version
         run: echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
 
-      - name: Publish to npm
-        run: |
-          # OIDC를 사용한 배포를 위해 기존 .npmrc가 있다면 삭제하여 간섭 방지
-          rm -f .npmrc
-          npm publish --provenance --access public
+      - name: Publish to NPM
+        run: npm publish --provenance --access public
 
       - name: Create GitHub Release
         uses: actions/create-release@v1
@@ -94,6 +93,6 @@ jobs:
           body: |
             🎉 새로운 버전이 릴리스되었습니다!
 
-            자세한 변경 사항은 [CHANGELOG.md](https://github.com/1d1s/1d1s-design-system/blob/main/CHANGELOG.md)를 참고하세요.
+            자세한 변경 사항은 [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md)를 참고하세요.
           draft: false
           prerelease: false
