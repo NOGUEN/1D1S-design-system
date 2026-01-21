@@ -7,6 +7,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1D1S/1D1S-design-system.git"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
