@@ -26,4 +26,5 @@ export * from "./Tag";
 export * from "./TextField";
 export * from "./Toggle";
 export * from "./ToggleGroup";
+export * from "./Tooltip";
 export * from "./UserListItem";
