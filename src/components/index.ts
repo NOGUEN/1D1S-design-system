@@ -21,6 +21,7 @@ export * from "./Menu";
 export * from "./PageBackground";
 export * from "./PageTitle";
 export * from "./PageWatermark";
+export * from "./Pagination";
 export * from "./ProfileCard";
 export * from "./Spacing";
 export * from "./Tag";

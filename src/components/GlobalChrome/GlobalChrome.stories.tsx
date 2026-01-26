@@ -6,12 +6,7 @@ const meta: Meta<typeof GlobalChrome> = {
   component: GlobalChrome,
   tags: ['autodocs'],
   parameters: {
-    nextjs: {
-      appDirectory: true,
-      navigation: {
-        pathname: '/',
-      },
-    },
+    layout: 'fullscreen',
   },
 };
 
@@ -21,6 +16,28 @@ type Story = StoryObj<typeof GlobalChrome>;
 export const Default: Story = {
   args: {
     pathname: '/',
+  },
+};
+
+export const Mobile: Story = {
+  args: {
+    pathname: '/',
+  },
+  parameters: {
+    viewport: {
+      defaultViewport: 'mobile1',
+    },
+  },
+};
+
+export const Desktop: Story = {
+  args: {
+    pathname: '/',
+  },
+  parameters: {
+    viewport: {
+      defaultViewport: 'reset',
+    },
   },
 };
 
