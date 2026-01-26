@@ -35,11 +35,11 @@ export function GlobalChrome(): React.ReactElement | null {
 
   return (
     <>
-      <div className="fixed top-4 left-4 z-50 h-full w-60">
+      <div className="fixed top-4 left-4 z-50">
         <Menu />
       </div>
       {!isNoProfile && (
-        <div className="fixed top-4 right-4 z-50 h-full">
+        <div className="fixed top-4 right-4 z-50">
           <ProfileCard />
         </div>
       )}

@@ -61,3 +61,22 @@
   animation-duration: 12s; /* 속도나 방향별로 조절 가능 */
   animation-direction: reverse;
 }
+
+/* Accordion animations */
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
