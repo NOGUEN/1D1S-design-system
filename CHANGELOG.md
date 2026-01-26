@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/1D1S/1D1S-design-system/compare/v0.1.11...v0.1.12) (2026-01-26)
+
+
+### Features
+
+* 페이지네이션 추가 ([b7008cb](https://github.com/1D1S/1D1S-design-system/commit/b7008cb2799cbe69e436e4b370cde7e92f472bfa))
+
 ### [0.1.11](https://github.com/1D1S/1D1S-design-system/compare/v0.1.10...v0.1.11) (2026-01-26)
 
 
