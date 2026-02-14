@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/1D1S/1D1S-design-system/compare/v0.1.13...v0.3.0) (2026-02-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* breaking change
+* 전체 리뉴얼
+
+### Features
+
+* breaking change ([7a40e53](https://github.com/1D1S/1D1S-design-system/commit/7a40e53e2cfd7303aacb821068a40c835e32af98))
+* DiaryCard 사진 비율 수정 ([c237fdd](https://github.com/1D1S/1D1S-design-system/commit/c237fdd91677c6c4072ddcc9559942df0f69fcff))
+* renewal ([d1f1033](https://github.com/1D1S/1D1S-design-system/commit/d1f1033d616ce56eac145eb821a474a9869609d5))
+* Streak 간격 및 ReadMe 추가 ([69a5ff2](https://github.com/1D1S/1D1S-design-system/commit/69a5ff28830ac669fae50e8a6af4851366c35737))
+* 미사용 모듈 제거 ([fdd0134](https://github.com/1D1S/1D1S-design-system/commit/fdd01342c6db3fb34ea2a237658915430ea28670))
+* 빌드 에러 수정 ([b290247](https://github.com/1D1S/1D1S-design-system/commit/b290247d444778e3f3d93994adeb211cd353a64e))
+* 스토리북 배포 ([8ac7f78](https://github.com/1D1S/1D1S-design-system/commit/8ac7f78f06bcfe763c74a3f2d1d6760bed86dee0))
+* 전반적인 사이즈 조정 및 애니메이션 추가 ([ddefb00](https://github.com/1D1S/1D1S-design-system/commit/ddefb0075bd88d0a9374c7d484d0503b54040973))
+* 전반적인 스타일 개선 및 신규 컴포넌트 2종 추가 ([4d8c7f6](https://github.com/1D1S/1D1S-design-system/commit/4d8c7f67780473cd3fe3966142a002fe75cc9d09))
+* 트리거 ([dc6ba54](https://github.com/1D1S/1D1S-design-system/commit/dc6ba54eb39f63e278508c88403fe21cee28eb4e))
+
+
+### Bug Fixes
+
+* 너비 수정 ([b85e484](https://github.com/1D1S/1D1S-design-system/commit/b85e484a18bc06eb66dc71c47158160ab296dd91))
+
 ### [0.2.1](https://github.com/1D1S/1D1S-design-system/compare/v0.2.0...v0.2.1) (2026-02-14)
 
 
